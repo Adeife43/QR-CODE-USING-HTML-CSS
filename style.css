@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+}
+.Container{
+    border: 4px solid hsl(0, 0%, 100%);
+    border-radius: 25px;
+    width: 25em;
+    height: 50em;
+    align-items: center;
+    background-color:white ;
+    margin: 30em;
+    padding: 30px 25px;
+    }
+img{
+
+    width: 95%;
+    height: 100%;
+    border-radius: 2em;
+    padding-top: 1px;
+    }
+.Container-heading{
+    color: hsl(218, 44%, 22%);
+    font-size: 25px;
+    text-align: center;
+}
+p{
+   color: hsl(220, 15%, 55%); 
+   font-size: 15px;
+   text-align: center;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    
+}
+@media only screen and (max-width:1440px){
+    .Container{
+    width:375px;
+} 
+}
+    
